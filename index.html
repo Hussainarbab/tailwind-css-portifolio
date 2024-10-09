@@ -8,10 +8,10 @@
 <body class="bg-gray-900 ">
     <h1 class="text-center text-lg font-bold bg-red-700 text-white "> Today task</h1>
 <!-- navbar start -->
-    <nav class="bg-white flex p-5 justify-around item-center ">
+    <nav class="bg-white md:flex p-5 justify-around item-center text-center  ">
         <h1 class="text-orange-500 text-3xl  item-center mr-[5%]">Arbab Portifolio</h1>
 
-<ul class="flex text-xl  mr-[20%] gap-[10%] ">
+<ul class="md:flex text-xl  mr-[20%] gap-[10%]  hidden md:block ">
 
     <li class="hover:border-b-2 border-red-500">Home</li>
     <li class="hover:border-b-2 border-red-500">About</li>
@@ -25,21 +25,29 @@
 <!-- nav bar end -->
 
 
-<section class="" style="background-image: url(/background\ image.jpg);">
+<section class="text-center h-screen" style="background-image: url(/background\ image.jpg); background-repeat: no-repeat; background-position: center ; background-size: cover; ">
 
 
 <h1 class="text-white text-center text-5xl font-bold pt-[8%]">We are awesome</h1>
 
-<p class="text-white text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, porro, <br> ratione nemo quia fugiat perferendis eaque quos soluta  voluptates  <br>veritatis aliquid culpa voluptatibus repudiandae alias sapiente</p>
+<p class="text-white text-center leading-7 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, porro, <br> ratione nemo quia fugiat perferendis eaque quos soluta  voluptates  <br>veritatis aliquid culpa voluptatibus repudiandae alias sapiente</p>
 
 
-<button class="text-white text-center">Explore More -></button>
+
+  <button class="text-white text-center bg-yellow-500 p-1 rounded-xl mt-[5%] hover:bg-gray-900">Explore More-></button>
+<button class="text-black mt-5 text-center p-1 bg-white rounded-xl ml-[4%] hover:bg-yellow-500 ">Purchase Now-></button>
+
+
+
 </section>
 
 
-
-  <div  class="flex justify-around item-center my-20">
 <div>
+  <h1 class="text-center text-white text-4xl pt-[5%]">About Us</h1>
+  <div  class=" block md:flex justify-around item-center my-10 text-center">
+   
+<div>
+  
     <h3 class="text-yellow-500 my-6">Hussain Abbas</h3>
 
     <h1 class="text-white text-3xl">I m Hussain Arbab</h1>
@@ -51,9 +59,10 @@
          <button class="bg-yellow-500 my-8 text-black p-1 rounded hover:bg-red-700">Download me</button>
 </div>
 
-<div>
-    <img src="./j-removebg-preview.png" class="w-[60%] bg-white rounded-xl">
+<div class="flex justify-center">
+    <img src="./j-removebg-preview.png" class="w-[60%] bg-white rounded-xl text-center ">
 </div>
   </div>
+</div>
 </body>
 </html>
